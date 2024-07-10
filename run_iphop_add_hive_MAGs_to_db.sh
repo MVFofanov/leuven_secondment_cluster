@@ -16,7 +16,8 @@ date;hostname;pwd
 source /vast/groups/VEO/tools/anaconda3/etc/profile.d/conda.sh && conda activate iphop_v1.3.3
 
 working_dir="/home/zo49sog/crassvirales/leuven_secondment"
-input_dir_mags="${working_dir}/hive_analysis/filtered_bins"
+
+input_dir_mags="${working_dir}/hive_analysis/filtered_bins/hive_bins"
 input_dir_gtdbtk_results="${working_dir}/hive_analysis/filtered_bins_gtdbtk_de_novo"
 
 iphop_db="/work/groups/VEO/databases/iphop/v20240325/Aug_2023_pub_rw/"
